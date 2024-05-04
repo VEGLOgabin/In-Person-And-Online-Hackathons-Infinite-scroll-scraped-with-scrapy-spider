@@ -1,9 +1,5 @@
 import scrapy
-
-
 base = "https://devpost.com/api/hackathons?page={}"
-
-
 class InpersonandonlinehackathonsSpider(scrapy.Spider):
     name = "inpersonAndOnlineHackathons"
     # allowed_domains = ["x"]

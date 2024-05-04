@@ -30,6 +30,9 @@ In Person And Online Hackathons Infinite scroll scraped with scrapy spider
 ### **Overview**
 This Scrapy project scrapes data from the Devpost website's API to gather information about in-person and online hackathons. It retrieves details such as hackathon title, location, open state, URL, submission period dates, themes, prize amount, registrations count, organization name, winners announced status, and more.
 
+
+![](code.png)
+
 ### **Setup**
 Ensure you have Python installed along with the Scrapy library.
 
