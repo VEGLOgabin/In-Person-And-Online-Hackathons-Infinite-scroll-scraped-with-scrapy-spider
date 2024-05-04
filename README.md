@@ -22,3 +22,39 @@ In Person And Online Hackathons Infinite scroll scraped with scrapy spider
 ### scrapy runspider inpersonAndOnlineHackathons.py -o hackathons.csv -t csv
 
 ## THANK YOU FOR YOUR ATTENTION!!
+
+
+
+### **In-Person and Online Hackathons Scrapy Project**
+
+### **Overview**
+This Scrapy project scrapes data from the Devpost website's API to gather information about in-person and online hackathons. It retrieves details such as hackathon title, location, open state, URL, submission period dates, themes, prize amount, registrations count, organization name, winners announced status, and more.
+
+### **Setup**
+Ensure you have Python installed along with the Scrapy library.
+
+### **Usage**
+1. Run the Scrapy spider.
+2. Wait for the spider to scrape hackathon data.
+3. The scraped data will be printed, and you can process it further as needed.
+
+### **How to Run**
+1. Install Scrapy using `pip install scrapy`.
+2. Run the Scrapy spider using the command `scrapy crawl inpersonAndOnlineHackathons -o output.json`.
+3. Replace `output.json` with the desired output file name.
+
+### **Dependencies**
+- Python 3.x
+- Scrapy
+
+### **Notes**
+- Customize the Scrapy spider's logic and parsing according to your requirements.
+- Ensure compliance with Devpost's terms of service and API usage policies.
+- Handle pagination if needed to scrape all available hackathon data.
+
+### **Contributors**
+- Gabin H. VEGLO
+
+### **License**
+#**This project is licensed under the MIT License.**#
+
