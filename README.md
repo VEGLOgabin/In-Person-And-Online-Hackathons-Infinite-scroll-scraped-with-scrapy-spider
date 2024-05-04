@@ -33,6 +33,8 @@ This Scrapy project scrapes data from the Devpost website's API to gather inform
 
 ![](code.png)
 
+![](csv_data.png)
+
 ### **Setup**
 Ensure you have Python installed along with the Scrapy library.
 
